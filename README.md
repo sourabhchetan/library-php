@@ -23,10 +23,7 @@ A simple and functional **Library Management System** built using **PHP, MySQL**
 
 ---
 
-## 📁 Project Structure
-library/ │ ├── book.php # Main book management interface ├── book.css # Styling for book management ├── book_particular_search.php # Search for a specific book by criteria │ ├── book_return_records.php # List of returned books ├── book_return_records.css # Styling for return records │ ├── borrowers_records.php # Manage borrowers (students) ├── borrowers_records.css # Styling for borrowers section │ ├── connect.php # Database connection script │ ├── deletebook.php # Delete a book record ├── deletebook_return_record.php # Delete a single return record ├── deletebook_return_records.php # Delete all return records ├── deleteborrowers_records.php # Delete borrower records ├── deletestudent.php # Delete a student ├── deleteusers.php # Delete a user │ ├── dropbook.php # Drop books table ├── dropbook_return_records.php # Drop book return table ├── dropborrowers_records.php # Drop borrowers table ├── dropstudent.php # Drop student table ├── dropusers.php # Drop users table │ ├── login.css # Styling for login page │ └── (optional) database.sql # SQL file to create and populate the DB (not included)
 
----
 
 ## 🧰 Setup Instructions
 
