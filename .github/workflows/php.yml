@@ -37,3 +37,35 @@ jobs:
 
     # - name: Run test suite
     #   run: composer run-script test
+    
+---
+
+## 🧰 Setup Instructions
+
+1. **Clone or extract** the project folder to your local server directory (`htdocs` for XAMPP, `www` for WAMP).
+2. Import the database:
+   - Open **phpMyAdmin**
+   - Create a new database (e.g., `library_db`)
+   - Import the SQL file (ensure it's provided in the project folder)
+3. Update `connect.php` with your database credentials.
+4. Start your local server (Apache + MySQL).
+5. Open your browser and navigate to:  
+   `http://localhost/library`
+
+---
+
+## 👨‍💻 Author
+
+**Sourabh Chetan**  
+MCA Student | Developer | Content Creator
+
+---
+
+## 📌 Notes
+
+- Make sure PHP and MySQL are properly configured on your system.
+- Ensure `connect.php` is secure in production environments.
+- Always backup the database before making structural changes.
+
+---
+
